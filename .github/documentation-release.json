@@ -4,7 +4,7 @@
     {
       "name": "@stackline/unist-util-inspect",
       "path": "readme.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -25,8 +25,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/unist-util-inspect/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/unist-util-inspect/-/unist-util-inspect-1.0.0.tgz",
       "baselineIntegrity": "sha512-+37hr6yD8Xm2ZzSgfhYbMjd4fvwVhCIMmoQNA/pjO7jKOjmNFqC+7YntyeUzpOPoDkQuDncTFn/2+PlhScR+Xg==",
-      "expectedSha512": "fd60593d6b91c5641b2f64777db0cd2da9df0dbb61789f04634454ec8acae7455e307d52ac55669bd128d409acb43f4119f6634b15819cee0162accb2768a8d9",
-      "tag": "docs-stackline-unist-util-inspect-v1.0.1"
+      "expectedSha512": "3f896c1e15f162d2aa0e322efad9ba76f959c03d7d46b3cb8a6d6e2abe7633e479804392a31f324c82b8af3c9073224d6fccc5c8d3c0677a852024ae0388f85e",
+      "tag": "docs-stackline-unist-util-inspect-v1.0.2"
     }
   ]
 }
