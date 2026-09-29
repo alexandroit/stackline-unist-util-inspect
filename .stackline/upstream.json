@@ -1,0 +1,26 @@
+{
+  "upstream": "unist-util-inspect",
+  "fork": "@stackline/unist-util-inspect",
+  "repository": "alexandroit/stackline-unist-util-inspect",
+  "upstreamRepository": "syntax-tree/unist-util-inspect",
+  "upstreamVersion": "7.0.2",
+  "sourceCommit": "04775f5f5af91c1ba3dc81cadf957b4abd49642e",
+  "upstreamIntegrity": "sha512-Op0XnmHUl6C2zo/yJCwhXQSm/SmW22eDZdWP2qdf4WpGrgO1ZxFodq+5zFyeRGasFjJotAnLgfuD1jkcKqiH1Q==",
+  "status": "source-ready",
+  "files": {
+    "license": "55ea2f835a4abd9d82bcd8b5482ffc1d13b65e52847b7e67ed6b339ea4e625a5",
+    "lib/color-browser.js": "4908d8206980a7122d055e8f39ef2c6e8bf3202fba7a1c9f2cc9340807b7c69e",
+    "lib/color.js": "5cdf9f01f2379032a9e6f5c8e5067fe9d09bab2a24bf6a58017fac42e548d5c5",
+    "index.js": "a86d919b9c722464d7c8615a4f127d74c051a7046939df02990b2269b28e0d88",
+    "lib/index.js": "4de30936895b0ef55d1cb6b99d06d9ac0c657b20f34519689f93fc841c36defa",
+    "package.json": "ddaac798e6baec55f05c676739009ea43fb3bae47ba3bc5bb57c83811315fc0e",
+    "readme.md": "955607f496eb80d96eb4636010dc4873b14098b367460427bff16adfbe570cb0",
+    "lib/color-browser.d.ts": "1254e8dd78f45fcf93545aae7865a5b93ed774fc618671434bde64dbd74f4dc8",
+    "lib/color.d.ts": "3f938ed3915f16e90fde76cc60b96e5bf856e31c3c804edf78a59fe1ccd8a1f2",
+    "index.d.ts": "f5f9c298cb2eca88d649ca161c0e5f97bf2e28b5416859704647ae8dd3ec76a8",
+    "lib/index.d.ts": "a605e5b4b324c58bf52e674d4ab0f68c43939aee84b0bd42c8ea251359974ad3"
+  },
+  "allowedRuntimeChanges": [],
+  "testCommand": "node --conditions development test.js",
+  "strategy": "Published upstream files, including generated declarations, are preserved and checked against SHA-256. Functional tests run against source and the extracted final package. Changes to published runtime files require an explicit reviewed allowlist."
+}
