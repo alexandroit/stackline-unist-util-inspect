@@ -1,28 +1,52 @@
 # @stackline/unist-util-inspect
 
-Independent maintenance fork of `unist-util-inspect@7.0.2`, preserving its API and published type declarations.
+> unist utility to inspect nodes.
 
-```sh
+[![npm version](https://img.shields.io/npm/v/@stackline/unist-util-inspect.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/unist-util-inspect)
+[![license](https://img.shields.io/npm/l/@stackline/unist-util-inspect.svg?style=flat-square)](https://github.com/alexandroit/stackline-unist-util-inspect)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-unist-util-inspect-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-unist-util-inspect)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/unist-util-inspect/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/unist-util-inspect/)** | **[npm](https://www.npmjs.com/package/@stackline/unist-util-inspect)** | **[Issues](https://github.com/alexandroit/stackline-unist-util-inspect/issues)** | **[Repository](https://github.com/alexandroit/stackline-unist-util-inspect)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/unist-util-inspect` is the Stackline-maintained distribution of `unist-util-inspect@7.0.2`. It is an independent continuation of [unist-util-inspect](https://github.com/syntax-tree/unist-util-inspect); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/unist-util-inspect@1.0.1` |
+| API target | `unist-util-inspect@7.0.2` |
+| Supported Node.js | `See supported framework requirements` |
+| License | `MIT` |
+| Module type | `module` |
+| Main entry | `index.js` |
+| Types | `index.d.ts` |
+| Runtime dependencies | `@types/unist` |
+
+## Installation
+
+```bash
 npm install @stackline/unist-util-inspect
-# Keep existing imports:
-npm install unist-util-inspect@npm:@stackline/unist-util-inspect@1.0.0
 ```
 
-[Stackline](https://alexandro.net/) · [Issues](https://github.com/alexandroit/stackline-unist-util-inspect/issues) · [Community](https://www.reddit.com/r/Stackline/)
+Preserve existing imports and plugin resolution with an npm alias:
 
-See [UPSTREAM.md](UPSTREAM.md) for source identity and issue review, and [CHANGELOG.md](CHANGELOG.md) for maintenance changes. Functional tests also run against the final npm tarball; releases are published from GitHub Actions with provenance.
+```bash
+npm install unist-util-inspect@npm:@stackline/unist-util-inspect
+```
 
-## Upstream documentation
+## Usage and API reference
 
-# unist-util-inspect
+### unist-util-inspect
 
-[![Build][build-badge]][build]
-[![Coverage][coverage-badge]][coverage]
-[![Downloads][downloads-badge]][downloads]
-[![Size][size-badge]][size]
-[![Sponsors][sponsors-badge]][collective]
-[![Backers][backers-badge]][collective]
-[![Chat][chat-badge]][chat]
 
 [unist][] utility to inspect trees.
 
@@ -58,7 +82,7 @@ This package is [ESM only][esm].
 In Node.js (version 14.14+ and 16.0+), install with [npm][]:
 
 ```sh
-npm install unist-util-inspect
+npm install @stackline/unist-util-inspect
 ```
 
 In Deno with [`esm.sh`][esmsh]:
@@ -79,7 +103,7 @@ In browsers with [`esm.sh`][esmsh]:
 
 ```js
 import {u} from 'unist-builder'
-import {inspect} from 'unist-util-inspect'
+import {inspect} from '@stackline/unist-util-inspect'
 
 const tree = u('root', [
   u('literal', '1'),
@@ -172,7 +196,7 @@ abide by its terms.
 
 [MIT][license] © [Titus Wormer][author]
 
-<!-- Definition -->
+
 
 [build-badge]: https://github.com/syntax-tree/unist-util-inspect/workflows/main/badge.svg
 
@@ -231,3 +255,22 @@ abide by its terms.
 [api-inspectnocolor]: #inspectnocolortree-options
 
 [api-options]: #options
+
+## Credits and original authors
+
+- Original project: [unist-util-inspect](https://github.com/syntax-tree/unist-util-inspect).
+- Titus Wormer.
+- Copyright (c) 2014-2015 Titus Wormer <tituswormer@gmail.com>.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
