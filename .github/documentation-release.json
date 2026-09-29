@@ -1,0 +1,32 @@
+{
+  "repository": "alexandroit/stackline-unist-util-inspect",
+  "packages": [
+    {
+      "name": "@stackline/unist-util-inspect",
+      "path": "readme.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "unist-util-inspect",
+        "nodejs",
+        "typescript",
+        "unist",
+        "unist-util",
+        "util",
+        "utility",
+        "inspect",
+        "debug",
+        "log",
+        "console",
+        "maintenance-fork"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/unist-util-inspect/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/unist-util-inspect/-/unist-util-inspect-1.0.0.tgz",
+      "baselineIntegrity": "sha512-+37hr6yD8Xm2ZzSgfhYbMjd4fvwVhCIMmoQNA/pjO7jKOjmNFqC+7YntyeUzpOPoDkQuDncTFn/2+PlhScR+Xg==",
+      "expectedSha512": "fd60593d6b91c5641b2f64777db0cd2da9df0dbb61789f04634454ec8acae7455e307d52ac55669bd128d409acb43f4119f6634b15819cee0162accb2768a8d9",
+      "tag": "docs-stackline-unist-util-inspect-v1.0.1"
+    }
+  ]
+}
